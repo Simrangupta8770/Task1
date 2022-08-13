@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<script src="javasc.js"></script>
+  <script src="https://kit.fontawesome.com/ea9cae87cb.js" crossorigin="anonymous"></script>
+  <title>project9</title>
+</head>
+
+<body>
+  <div class="whole">
+    
+    <div class="right">
+      <div class="container">
+        <div class="container1">
+         
+          <div class="container2">
+            <form id="form">
+              <div class="form-control">
+                <label>
+                  Select Your Source:
+                </label><br>
+                <div class="input-field" style="background-color: white;float:right;">
+                <input type="file" id="file" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <br>
+                <small></small>
+              </div>
+              </div>
+              <div class="form-control">
+                <label>
+                    Provide a name for pipeline:
+                </label><br>
+                <div class="input-field">
+                    <input type="text" id="piname" autocomplete="off" placeholder="e.g., cust_shop_energy_gkateway001">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br>
+                    <small></small>
+                  </div>
+              </div>
+              <div class="form-control">
+                <label>
+                    GCS Project Name:
+                </label><br>
+                <div class="input-field">
+                    <input type="text" id="pname" autocomplete="off" placeholder="project-id">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br>
+                    <small></small>
+                  </div>
+              </div>
+              <div class="form-control">
+                <label>
+                    GCS bucket name:
+                </label><br>
+                <div class="input-field">
+                    <input type="text" id="bname" autocomplete="off" placeholder="gs://your-bucket">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br>
+                    <small></small>
+                  </div>
+              </div>
+              <div class="form-control">
+                <label>
+                    Input cloud storage file(s):
+                </label><br>
+                <div class="input-field">
+                    <input type="text" id="cstore" autocomplete="off" placeholder="GCS location of your files">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br>
+                    <small></small>
+                  </div>
+              </div>
+              <div class="form-control">
+                <label>
+                    GCS credentials:
+                </label><br>
+                <div class="input-field">
+                    <input type="text" id="cred" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br>
+                    <small></small>
+                  </div>
+              </div>
+              
+              <div class="form-control">
+                <label>
+                    Run Every:
+                </label><br>
+                <div class="input-field">
+                    <input type="text" id="run" autocomplete="off" placeholder="(in minutes)">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br>
+                    <small></small>
+                  </div>
+              </div>
+
+              
+<div class="buttons">
+              <button class="btn" id="submit">Submit</button>
+              <button class="btn">Cancel</button>
+</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="./javascript.js"></script>
+
+</html>
